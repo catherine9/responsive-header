@@ -46,7 +46,8 @@ nav ul {
 }
 
 nav a:hover {
-  color: #6c8fe0;
+  background-color: #6c8fe0;
+  overflow: hidden;
 
 }
 
@@ -56,10 +57,30 @@ nav a:hover {
     line-height: 1.3;
   }
 
-  body {
+  header {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    float: left;
+    width: 50%;
   }
 
 }
