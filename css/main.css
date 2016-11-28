@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,8 +23,7 @@ header {
   padding: .5px;
 }
 
-h1 {
-  font-family: Ubuntu, sans-serif;
+header h1 {
   font-size: 2rem;
   color: #fff;
   text-align: center;
@@ -31,12 +31,10 @@ h1 {
 
 nav li {
   display: inline-block;
-  font-family: Ubuntu, sans-serif;
-  font-size: 1.125rem;
   margin: .9rem;
 }
 
-li a {
+nav a {
   color: #6c8fe0;
   list-style-type: none;
   text-decoration: none;
@@ -44,4 +42,24 @@ li a {
 
 nav ul {
   text-align: center;
+  font-size: 1.125rem;
+}
+
+nav a:hover {
+  color: #6c8fe0;
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    line-height: 1.3;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
 }
