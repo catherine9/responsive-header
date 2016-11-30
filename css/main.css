@@ -20,6 +20,7 @@ html {
 
 header {
   background-color: #18294f;
+  padding: 5px;
 }
 
 header h1 {
@@ -72,16 +73,14 @@ body {
 
   nav li {
     margin: 0;
+    float: left;
+    width: 50%;
+    overflow: hidden;
   }
 
   body {
     margin: 0;
     padding: 0;
-  }
-
-  li a {
-    float: left;
-    width: 50%;
   }
 
 }
@@ -93,6 +92,11 @@ body {
     line-height: 1.4;
   }
 
+  nav li {
+    float: right;
+    width: 25%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -100,6 +104,16 @@ body {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  h1, p {
+    margin: 0 0 1.5rem;
+    float: left;
+  }
+
+  nav li {
+    float: right;
+    display: inline-block;
   }
 
 }
